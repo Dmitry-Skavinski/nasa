@@ -1,0 +1,24 @@
+.menu {
+	padding-block: 20px;
+
+	.rdp {
+		background-color: $text;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		font-family: Helvetica;
+		border-radius: 5px;
+		margin: 0;
+
+		@include desktop {
+			width: max-content;
+		}
+
+		.rdp-button:hover:not([disabled]):not(.rdp-day_selected) {
+			background-color: $hover;
+			color: $text;
+		}
+	}
+
+	
+}

@@ -1,0 +1,13 @@
+html {
+	font-size: 16px;
+
+	&, body, div, section, main, button, input, h1, h2, p {
+		margin: 0;
+		padding: 0;
+		font-size: 1rem;
+		line-height: 120%;
+		font-family: inherit;
+		vertical-align: baseline;
+		box-sizing: border-box;
+	}
+}
